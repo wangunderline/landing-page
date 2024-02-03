@@ -2,15 +2,32 @@
 
 * {
     font-family: Roboto, serif;
-    margin: 0;
+    
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
 nav {
-    background-color: #1f2937;
     display: flex;
     justify-content: space-around;
+}
+
+nav, 
+footer {
+    background-color: #1f2937;
+    align-items: center;
     padding: 26px;
+}
+
+a,
+footer {
+    color: #e5e7eb;;
 }
 
 .header {
@@ -22,10 +39,9 @@ nav {
 a {
     text-decoration: none;
     font-size: 18px;
-    color: #e5e7eb;
 }
 
-li {
+ul {
     list-style: none; 
 }
 
@@ -33,4 +49,20 @@ li {
     display: flex; 
     gap: 32px;
 }
+
+main {
+    flex: auto;
+    display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
 
