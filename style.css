@@ -66,7 +66,7 @@ footer {
     display: flex;
     width: 100%;
     gap: 46px;
-    padding: 52px;
+    padding: 64px;
     justify-content: center;
 }
 
@@ -141,5 +141,31 @@ button {
     height: 160px;
 }
 
+.third-section {
+    background-color: #e5e7eb;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
 
+.text-box {
+    display: flex;
+    flex-direction: column;
+    margin: 260px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 800;
+    font-size: 26px;
+}   
 
