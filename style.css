@@ -53,6 +53,7 @@ ul {
 main {
     flex: auto;
     display: flex;
+    flex-direction: column;
 }
 
 footer {
@@ -102,6 +103,42 @@ button {
     border: none;
     width: 130px;
     height: 40px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.content {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.second-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    padding: 26px;
+}
+
+.block {
+    max-width: 160px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box {
+    background-color: white;
+    border: 4px solid #3882f6;
+    border-radius: 12px;
+    width: 160px;
+    height: 160px;
 }
 
 
