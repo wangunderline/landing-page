@@ -10,8 +10,6 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    margin: 0;
 }
 
 nav {
@@ -52,7 +50,6 @@ ul {
 }
 
 main {
-    flex: auto;
     display: flex;
     flex-direction: column;
 }
@@ -65,10 +62,10 @@ footer {
 .first-container {
     background-color: #1f2937;
     display: flex;
-    width: 100%;
-    gap: 46px;
-    padding: 64px;
+    gap: 36px;
     justify-content: center;
+    align-items: center;
+    height: 75vh
 }
 
 .left {
@@ -76,12 +73,11 @@ footer {
     flex-direction: column;
     width: 400px;
     color: #e5e7eb;
+    gap: 8px;
 }
 
 .left h1 {
     font-size: 42px;
-    margin: 0;
-    padding: 0;
     color: #f9faf8;
     font-weight: 900;
 }
